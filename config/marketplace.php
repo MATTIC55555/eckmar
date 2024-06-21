@@ -31,7 +31,7 @@ return [
     /**
      * Amount of USD that needs to be paid to the market in order to become vendor
      */
-    'vendor_fee' => env('VENDOR_FEE', 1),
+    'vendor_fee' => env('VENDOR_FEE', 5),
 
     /**
      * After how many negative feedback should vendor get "Deal with caution tag"
@@ -49,7 +49,7 @@ return [
     'trusted_vendor' => [
         'min_lvl' => 5,
         'min_feedbacks' => 1,
-        'percentage_of_feedback_positive' => 90,
+        'percentage_of_feedback_positive' => 75,
 
     ],
     /**
@@ -60,12 +60,12 @@ return [
     /**
      * Every number of days job will complete purchases with enough balance, you define this number here
      */
-    'days_complete' => intval(env("DAYS_TO_COMPLETE_PURCHASE", 2)),
+    'days_complete' => intval(env("DAYS_TO_COMPLETE_PURCHASE", 7)),
 
     /**
      * Messages that are older than this number of days are deleted
      */
-    'days_old_messages' => intval(env("MESSAGES_DAYS_OLD", 30)),
+    'days_old_messages' => intval(env("MESSAGES_DAYS_OLD", 28)),
 
     /**
      * How many days from marking purchase as sent passed to the point of automaticly marking purchase as delivered and releasing the funds to the vendor
