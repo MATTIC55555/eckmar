@@ -114,16 +114,16 @@ return [
      */
     'market_addresses' => [
         'btc' => [ // list of btc addresses
-            '02a017c9869f8378303f02310b9b719e6cb6bea37f87f95d89e187546d09b22b1c'
+            'bc1qxh7kknf2xh4mwlq7lqmw8sp6gtgflhfpmnyvpc'
         ],
         'pivx' => [ // list of pivx addresses
-            'xyQ7EsNzUUBMwyihUwgQ76E2Ac7FevEcQ4'
+            'DBw6fK2av9ponNGAqaX3DxAKw2xmHfHTvK'
         ],
         'dash' => [
-            'yQgr9ix7L7JuA5NeZdj3yux7sNXCX3H843'
+            'XpXaVaN8zXG1rXfMwJxZD9ZYohjJJwTgwr'
         ],
         'xmr' => [
-            '45ry3PiKunpfk1mmacicjohiSjp3TSPg5iVJAfmiYWGoBJH8T3U2MpG1sHfiYkVKo8MTZiiY22JKbG3YaKagujYBQPCHX5G'
+            '48VcVTk41mB8iNBnSZHkKRTS2JSRJprWhKQ7z2q62hAbDc5nckC3cPZXJVBLi8MdmZfuZPo2P7MxKQQCiS7MZ1fkKSH26t4'
         ],
         'stb' => [
             'marketSTB',
